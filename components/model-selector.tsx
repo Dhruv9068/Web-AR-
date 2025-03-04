@@ -20,27 +20,27 @@ export default function ModelSelector({ onSelect, selectedModel }: ModelSelector
   const [models, setModels] = useState<Model[]>([
     {
       name: "Chair",
-      path: "/assets/chair.glb",
+      path: "/assets/Chair.glb",
       thumbnail: "/placeholder.svg?height=100&width=100",
     },
     {
       name: "Table",
-      path: "/assets/table.glb",
+      path: "/assets/Hulk.glb",
       thumbnail: "/placeholder.svg?height=100&width=100",
     },
     {
       name: "Lamp",
-      path: "/assets/lamp.glb",
+      path: "/assets/Sofa1.glb",
       thumbnail: "/placeholder.svg?height=100&width=100",
     },
     {
       name: "Plant",
-      path: "/assets/plant.glb",
+      path: "/assets/Sofa2.glb",
       thumbnail: "/placeholder.svg?height=100&width=100",
     },
     {
       name: "Sofa",
-      path: "/assets/sofa.glb",
+      path: "/assets/Sofa3.glb",
       thumbnail: "/placeholder.svg?height=100&width=100",
     },
   ])
